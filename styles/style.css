@@ -1,0 +1,337 @@
+body{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
+.container{
+    width: 1880px;
+    height: 1277px;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding:50px ;
+    
+
+    
+}
+.g3{font-weight: 700;
+    font-size: 45px;
+    
+}
+.position{position: relative;bottom: 12px;
+right: 30px;}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left:100px
+
+}
+.thumbnail{
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    gap: 100px;
+
+
+
+
+}
+.container2{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    width: 862px;
+    height: 225px;
+    left: 529px;
+    top: 205px;
+    margin: 0%;
+
+    
+}
+.mainthumb {font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    justify-content:flex-end;
+    margin: 0%;
+
+    
+}
+    .lorem{ 
+        position: absolute;
+width: 868px;
+height: 52px;
+top: 180px;
+text-align: center;
+margin: 0%;
+
+}
+.first{background-color: coral;
+    position: absolute;
+    width: 180px;
+    height: 64px;
+    left: 870px;
+    top: 480px;
+    border-radius:5px ;
+    border:0px ;color: white;
+
+}
+.banner{position: absolute;
+    width: 1440px;
+    height: 701px;
+    left: 242px;
+    top: 640px;
+    }
+.photo{
+margin: 12px;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);width: 342px;
+    height: 342px;
+    position: relative;
+    top: 132px;
+    left: 301px;
+
+}
+.features{position: absolute;
+    width: 537px;
+    height: 310px;
+    left: 1122px;
+    }
+    .gray{
+        font-weight: 500;
+        font-size: 45px;  
+        color: #727272; 
+
+    }
+    .black{
+        font-weight: 700;
+        font-size: 45px;
+        color: black;
+    }
+    .orange{
+        font-weight: 700;
+        font-size: 45px;
+        color: #FF900E;
+    }
+    .paragraph{font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+    
+    }
+    .second{
+        width: 180px;
+        height: 64px;
+        left: 1125px;
+        top: 1864px;
+
+        background: #FF900E;
+        border-radius: 8px;
+        border:0px;
+        color:white ;
+    }
+    .vl{
+        
+        position: absolute;
+        border-left: 5px solid coral;
+        height: 106px;
+        left: 240px;
+        top: 2450px;
+    }
+    .love{width: 468px;
+        height: 106px;
+        font-weight: 700;
+        font-size: 45px;
+        padding-left: 24px;
+        position: relative;
+        bottom: 46px ;
+    }
+    .moreparagraph{width: 586px;
+        height: 78px;
+        font-weight: 400;
+        font-size: 16px;
+        margin:none ;
+        position: relative;
+        bottom: 20px;
+    
+    }
+    .girl{position: absolute;
+        width: 708px;
+        height: 982px;
+        left: 972px;
+        top: 2395px;}
+    .containers{position: absolute;
+        width: 586px;
+        height: 744px;
+        left: 240px;
+        top: 2700px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        
+        }
+         .container4{
+            background-color:white ; 
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+            border-radius: 8px; border: 10px none;
+            padding: 12px 42px 22px 30px  ;
+            
+        
+        }
+        .experience{
+            position: absolute;
+            width: 342px;
+            height: 200px;
+            left: 880px;
+            top: 3272px;
+            background-color: #FF900E;
+            color:white ;
+            display: flex;
+            flex-direction: column;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 8px;
+
+        }
+        .tenyear{
+            font-weight: 700;
+            font-size: 65px;
+            
+        }
+         .pex{
+            font-weight: 500;
+            font-size: 25px;
+            position: relative;
+            bottom: 60px;
+        
+        }
+        .factthumb{
+            position: absolute;
+            width: 330px;
+            height: 55px;
+            left: 240px;
+            top: 3553px;
+            font-weight: 700;
+            font-size: 45px;
+
+        } 
+    
+        .anotherpara{
+            position: absolute;
+            width: 542px;
+            height: 52px;
+            left: 241px;
+            top: 3680px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #727272;
+        }
+        
+        
+        .icon1{position: absolute;
+            width: 241.83px;
+            height: 241.83px;
+            left: 300.92px;
+            top: 3830.08px;
+
+            border: 1px solid #FF900E;
+            border-radius: 8px;display: flex;flex-direction: column;
+            align-items: center;justify-content:center;
+
+        }
+        .icon2{position: absolute;
+            width: 241.83px;
+            height: 241.83px;
+            left: 650.92px;
+            top: 3830.08px;display: flex;flex-direction: column;
+            align-items: center;justify-content:center;
+
+
+            border: 1px solid #FF900E;
+            border-radius: 8px;
+            align-items: center;}
+        .icon3{position: absolute;
+            width: 241.83px;
+            height: 241.83px;
+            left: 1000px;
+            top: 3830.08px;display: flex;flex-direction: column;
+            align-items: center;justify-content:center;
+
+
+            border: 1px solid #FF900E;
+            border-radius: 8px;
+            align-items: center;}
+        .icon4{position: absolute;
+            width: 241.83px;
+            height: 241.83px;
+            left: 1350px; display:flex; flex-direction: column;
+            align-items: center;justify-content:center;
+
+            top: 3830.08px;
+            border: 1px solid #FF900E;
+            border-radius: 8px;
+            align-items: center;}
+            .p1,.p2,.p3,.p4{font-weight: 600;
+                font-size: 45px;height: 53px;margin: 0%;}
+                .a1,.a2,.a3,.a4{font-weight: 600;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #727272;
+                    } 
+            .sponser{font-weight: 700;
+                font-size: 45px;
+                position: absolute;
+                width: 327px;
+                height: 53px;
+                left: 797px;
+                top: 4245px;
+                
+
+            }    
+            .foot{position: absolute;
+                width: 542px;
+                height: 52px;
+                left: 689px;
+                top: 4330px;font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+            
+                display: flex;
+                text-align: center;
+                
+    
+                
+                color: #727272;
+                }  
+                .sponsers{
+                    position: absolute;
+                    top: 4424px;
+                }
+                .logo1{position: relative;left: 240px;
+
+                } .logo2{position:absolute;left: 573px;
+
+                }.logo3{
+                    position:absolute;left:883px ;
+                } .logo4{position: absolute;left: 1191px;
+
+                } .logo5{position: absolute;left:1498px ;
+
+                }
+                .last{position: absolute;
+                    width: 1440px;
+                    height: 100px;
+                    left: 240px;
+                    top: 4604px;background: #FFF4E7;
+                    border-radius: 8px;font-weight: 400;
+                    font-size: 20px;
+                    line-height: 23px;display: flex;
+                    align-items:center;
+                    justify-content: center;
+                    
+                    }      
+
+
+    
+    
+
+
+
